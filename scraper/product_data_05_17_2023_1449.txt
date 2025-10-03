@@ -1,0 +1,34 @@
+Strain Type,THCa,Total THC,CBDa,Total CBD,Expires,product_name
+Indica,18.63%,17.08%,0.05%,0.05%,4/15/2024,high-variety-zookies-5-gr-flower
+Indica,18.63%,17.08%,0.05%,0.05%,4/13/2024,high-variety-zookies-1-gr-flower
+Hybrid,16.09%,14.71%,0.04%,0.04%,3/23/2024,high-variety-gelato-14-gr-flower
+Sativa,17.84%,16.24%,0.04%,0.04%,4/6/2024,high-variety-han-solo-burger-1-gr-flower
+Indica,16.78%,15.38%,0.05%,0.04%,4/4/2024,high-variety-grape-cakes-1-gr-flower
+Sativa Dominant Hybrid,17.29%,15.75%,0.05%,0.04%,4/12/2024,high-variety-han-solo-burger-14-gr-flower
+Indica,19.19%,17.41%,0.06%,0.06%,4/14/2024,high-variety-gello-5-gr-flower
+Sativa,17.84%,16.24%,0.04%,0.04%,4/10/2024,high-variety-han-solo-burger-5-gr-flower
+Indica,19.19%,17.41%,0.06%,0.06%,4/13/2024,high-variety-gello-1-gr-flower
+Hybrid,18.96%,17.61%,0.05%,0.04%,3/15/2024,pure-plan-peanut-butter-souffle-1-gr-flower
+Hybrid,27.86%,25.01%,0.08%,0.07%,2/27/2024,pure-plan-sunset-cookies-1-gr-flower
+Hybrid,18.96%,17.61%,0.05%,0.04%,3/15/2024,pure-plan-peanut-butter-souffle-3-5-gr-flower
+Hybrid,22.76%,20.31%,0.06%,0.06%,3/15/2024,pure-plan-lemon-cherry-gelato-3-5-gr-flower
+Sativa Dominant Hybrid,21.29%,19.51%,0.07%,0.06%,12/5/2023,pure-plan-berning-cap-3-5-gr-flower
+Hybrid,27.86%,25.01%,0.08%,0.07%,2/27/2024,pure-plan-sunset-cookies-3-5-gr-flower
+Hybrid,22.76%,20.31%,0.06%,0.06%,3/15/2024,pure-plan-lemon-cherry-gelato-7-gr-flower
+Hybrid,18.96%,17.61%,0.05%,0.04%,3/15/2024,pure-plan-peanut-butter-souffle-7-gr-flower
+Indica,24.22%,21.98%,0.05%,0.05%,2/14/2024,pure-plan-banana-dulce-8-7-gr-flower
+Indica,21.36%,19.26%,0.06%,0.05%,2/16/2024,dragonfly-jungle-wifi-3-5-gr-flower
+Indica,25.99%,22.96%,0.07%,0.06%,1/23/2024,dragonfly-grape-animals-3-5-gr-flower
+Indica,23.83%,21.77%,0.07%,0.06%,1/19/2024,dragonfly-rocket-fuel-3-5g-flower
+Indica,27.28%,24.24%,0.09%,0.08%,4/20/2024,black-sheep-papaya-3-5-gr-flower
+Hybrid,21.74%,19.65%,0.08%,0.07%,4/18/2024,black-sheep-citrus-cookies-kush-3-5-gr-flower
+Sativa,21.76%,19.32%,0.06%,0.05%,3/13/2024,hilight-cinderella-99-7-gr-flower
+Sativa,21.76%,19.32%,0.06%,0.05%,3/13/2024,hilight-cinderella-99-3-5-gr-flower
+Indica,22.26%,20%,0.06%,0.05%,3/28/2024,hilight-la-kush-cake-x-larry-og-x-purple-unicorn-f3-3-5-gr-flower
+Hybrid,27.69%,24.59%,0.07%,0.06%,3/13/2024,wholesomeco-grimm-gluexx-3-5-gr-flower
+Hybrid,27.69%,24.59%,0.07%,0.06%,3/13/2024,wholesomeco-grimm-gluexx-7-gr-flower
+Hybrid,23.42%,20.81%,0.07%,0.06%,3/13/2024,wholesomeco-chimera-3-s1-3-5-gr-flower
+Hybrid,26.79%,24.4%,0.06%,0.06%,1/26/2024,zion-candy-margy-7-gr-greenhouse-flower
+Sativa Dominant Hybrid,20.16%,18.14%,0.04%,0.04%,12/28/2023,pure-plan-strawberry-kush-7-gr-flower
+Sativa,18.4%,17.69%,0.06%,0.05%,10/12/2023,hilight-passionfruit-hashplant-3-5-gr-flower
+Indica,19.98%,17.52%,0.09%,0.08%,10/5/2023,tryke-v-kush-3-5-gr-flower
