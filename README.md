@@ -7,10 +7,10 @@ clean messy data, and help teams make better decisions.
 
 ## Featured Projects
 
-⭐ Python Automation Toolkit
-⭐ Fiverr Consulting Toolkit
-⭐ SQL Query Library
-⭐ Executive Dashboard
+- ⭐ Python Automation Toolkit
+- ⭐ Fiverr Consulting Toolkit
+- ⭐ SQL Query Library
+- ⭐ Executive Dashboard
 
 ## Skills
 
