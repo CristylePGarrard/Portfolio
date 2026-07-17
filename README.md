@@ -14,14 +14,14 @@ clean messy data, and help teams make better decisions.
 
 ## Skills
 
-Python
-SQL
-pandas
-NumPy
-Google Sheets
-ETL
-Automation
-Looker
-Selenium
-BeautifulSoup
-Flask
+- Python
+- SQL
+- pandas
+- NumPy
+- Google Sheets
+- ETL
+- Automation
+- Looker
+- Selenium
+- BeautifulSoup
+- Flask
