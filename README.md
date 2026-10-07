@@ -1,9 +1,6 @@
 # Cristyle P Garrard
 
-Data Engineer | Python Developer | SQL Developer | Automation Specialist
-
-I build tools that eliminate repetitive work, automate business processes,
-clean messy data, and help teams make better decisions.
+I’m a data-focused developer who builds practical tools for messy, repetitive problems. My work spans Python ETL pipelines, data validation, SQL, automation, dashboards, and interactive applications. I enjoy taking a process that is difficult, repetitive, or error-prone and turning it into something reliable and usable.
 
 ## Featured Projects
 
