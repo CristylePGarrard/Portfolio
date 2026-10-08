@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A Python and Jupyter case study exploring Fiverr service listings, pricing, delivery timelines, and gig text.">
+  <title>Python Automation Toolkit | Cristyle Garrard</title>
+  <style>
+    :root{--ink:#20252b;--muted:#657078;--paper:#f7f7f3;--card:#fff;--line:#e2e5df;--accent:#b7e36a;--deep:#17242b;--blue:#dceaf0;--radius:18px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}img{display:block;width:100%;height:auto;border-radius:12px} .wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+    header{padding:22px 0;border-bottom:1px solid var(--line)}.nav{display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:850;letter-spacing:.08em;text-decoration:none}.brand span{color:#83a83f}.nav a:not(.brand){font-size:.92rem;color:var(--muted);text-decoration:none}
+    .hero{padding:76px 0 62px;display:grid;grid-template-columns:1.2fr .8fr;gap:42px;align-items:center}.eyebrow{font-size:.76rem;letter-spacing:.16em;font-weight:800;color:#657b3f;text-transform:uppercase;margin:0 0 14px}.hero h1{font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.02;letter-spacing:-.055em;margin:0 0 22px}.hero h1 em{font-style:normal;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.15em;text-underline-offset:.1em}.lead{font-size:1.12rem;color:var(--muted);max-width:660px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.button{display:inline-block;padding:11px 16px;border-radius:999px;text-decoration:none;font-weight:750;font-size:.9rem;border:1px solid var(--ink)}.primary{background:var(--ink);color:white}.secondary{background:transparent}.hero-card{background:var(--deep);color:#f5f7f0;border-radius:var(--radius);padding:26px;box-shadow:12px 12px 0 var(--accent);transform:rotate(1deg)}.window{display:flex;gap:6px;margin-bottom:24px}.window i{width:9px;height:9px;border-radius:50%;background:#b7e36a}.hero-card pre{white-space:pre-wrap;overflow-wrap:anywhere;font: .9rem/1.8 ui-monospace,SFMono-Regular,Menlo,monospace;color:#d8e5df;margin:0}.hero-card .comment{color:#a2bd91}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:4px 0 0}.metric{border-top:2px solid var(--accent);padding-top:10px}.metric strong{display:block;font-size:1.2rem}.metric span{font-size:.78rem;color:#c3d0cb}
+    section{padding:52px 0}.section-head{max-width:700px;margin-bottom:28px}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.12;letter-spacing:-.04em;margin:0 0 12px}.section-head p:last-child{color:var(--muted);margin-bottom:0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step,.panel,.shot{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px}.step .num{font-size:.78rem;font-weight:850;color:#718c43;letter-spacing:.1em}.step h3{margin:8px 0;font-size:1.12rem}.step p{margin:0;color:var(--muted);font-size:.94rem}.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.shot{padding:14px}.shot img{border:1px solid var(--line);background:#f1f2ed}.shot h3{font-size:1.05rem;margin:14px 4px 4px}.shot p{font-size:.9rem;color:var(--muted);margin:0 4px 4px}.shot.wide{grid-column:1/-1}.shot.wide img{max-height:560px;object-fit:contain;background:#eef0ec}.dark{background:var(--deep);color:#f6f7f2}.dark .eyebrow{color:var(--accent)}.dark .section-head p:last-child{color:#c2ceca}.cols{display:grid;grid-template-columns:1fr 1fr;gap:30px}.cols h3{margin-top:0}.list{padding-left:20px}.list li{padding:3px 0}.callout{padding:18px 20px;background:#263740;border-left:4px solid var(--accent);border-radius:0 12px 12px 0;color:#d7e0dc}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tags span{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 10px;font-size:.8rem;color:#48534e}.dark .tags span{background:transparent;border-color:#51615e;color:#e2e8e2}footer{padding:24px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:52px}.hero-card{max-width:540px}.steps{grid-template-columns:1fr}.gallery,.cols{grid-template-columns:1fr}.shot.wide{grid-column:auto}.metrics{gap:8px}.nav{align-items:flex-start}.nav a:not(.brand){text-align:right}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap nav"><a class="brand" href="https://cristylepgarrard.github.io/Portfolio/">CPG<span>.</span></a><a href="https://github.com/CristylePGarrard/Fiverr-consulting-toolkit">View source repository ↗</a></div></header>
+  <main>
+    <section class="wrap hero">
+      <div>
+        <p class="eyebrow">Python · Data analysis · Automation</p>
+        <h1>From gig listings to <em>useful data.</em></h1>
+        <p class="lead">A hands-on market-research workflow using Python, pandas, reusable data-preparation modules, and Jupyter notebooks to explore Fiverr service listings, pricing, delivery timelines, and listing language.</p>
+        <div class="actions"><a class="button primary" href="https://github.com/CristylePGarrard/Fiverr-consulting-toolkit">Explore the code ↗</a><a class="button secondary" href="#screenshots">See the work ↓</a></div>
+      </div>
+      <aside class="hero-card" aria-label="Workflow overview"><div class="window"><i></i><i></i><i></i></div><pre><span class="comment"># turn raw listings into analysis</span>
+load source data
+      ↓
+inspect + validate
+      ↓
+clean + join tables
+      ↓
+explore prices + delivery
+      ↓
+analyze listing language
+      ↓
+communicate patterns</pre></aside>
+    </section>
+    <div class="wrap metrics">
+      <div class="metric"><strong>Python + pandas</strong><span>Data preparation</span></div>
+      <div class="metric"><strong>Jupyter</strong><span>Exploration and iteration</span></div>
+      <div class="metric"><strong>Charts + text</strong><span>Communicating patterns</span></div>
+    </div>
+    <section class="wrap">
+      <div class="section-head"><p class="eyebrow">The approach</p><h2>A practical workflow, not just a notebook full of charts.</h2><p>The project separates reusable data operations from exploratory analysis, so the work can be inspected, repeated, and extended.</p></div>
+      <div class="steps">
+        <article class="step"><span class="num">01 / PREPARE</span><h3>Inspect and combine</h3><p>Review columns, types, missing values, and duplicates; join related tables and standardize the dataset for analysis.</p></article>
+        <article class="step"><span class="num">02 / INVESTIGATE</span><h3>Explore the market</h3><p>Use summaries and visualizations to examine service prices, delivery timelines, common values, and data-quality questions.</p></article>
+        <article class="step"><span class="num">03 / INTERPRET</span><h3>Explore listing language</h3><p>Use a separate notebook to look at recurring words and terms in gig text. This is exploratory text analysis, not a trained NLP model.</p></article>
+      </div>
+    </section>
+    <section id="screenshots" class="wrap">
+      <div class="section-head"><p class="eyebrow">Selected artifacts</p><h2>A look inside the work.</h2><p>These screenshots are from the project’s own notebooks and portfolio materials.</p></div>
+      <div class="gallery">
+        <article class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/CristylePGarrard/Fiverr-consulting-toolkit/main/portfolio/fiverr-toolkit/images/fiverr_initial_data_analysis_screenshot.png" alt="Screenshot of the Fiverr initial data analysis notebook"><h3>Initial data analysis</h3><p>Exploring the source dataset and building an understanding of its structure.</p></article>
+        <article class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/CristylePGarrard/Fiverr-consulting-toolkit/main/portfolio/fiverr-toolkit/images/fiverr_initial_data_JupyterNotebook_column_info_screenshot.png" alt="Notebook screenshot showing column information"><h3>Understanding the columns</h3><p>Checking the available fields and their meaning before drawing conclusions.</p></article>
+        <article class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/CristylePGarrard/Fiverr-consulting-toolkit/main/portfolio/fiverr-toolkit/images/fiverr_initial_data_chart_costs_and_timeline_screenshot.png" alt="Chart comparing service costs and delivery timelines"><h3>Costs and delivery timelines</h3><p>A visual comparison of two practical dimensions of service listings.</p></article>
+        <article class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/CristylePGarrard/Fiverr-consulting-toolkit/main/portfolio/fiverr-toolkit/images/fiverr_nlp_text_analysis_graph_screenshot.png" alt="Visualization from the Fiverr gig text analysis notebook"><h3>Exploring listing text</h3><p>Early-stage text exploration to surface repeated terms and possible themes.</p></article>
+        <article class="shot wide"><img loading="lazy" src="https://raw.githubusercontent.com/CristylePGarrard/Fiverr-consulting-toolkit/main/portfolio/fiverr-toolkit/images/fiverr_nlp_text_analyisi_top20_words_screenshot.png" alt="Screenshot of top twenty words in Fiverr gig text analysis"><h3>Frequently occurring words</h3><p>A snapshot of the NLP notebook’s top-word exploration.</p></article>
+      </div>
+    </section>
+    <section class="dark">
+      <div class="wrap">
+        <div class="section-head"><p class="eyebrow">What this demonstrates</p><h2>Make the data trustworthy enough to ask better questions.</h2><p>The useful part of analysis starts before the chart: understanding source fields, managing missingness, combining related data, and being clear about what the results can—and cannot—tell us.</p></div>
+        <div class="cols">
+          <div><h3>Skills in practice</h3><ul class="list"><li>Python and pandas data workflows</li><li>Loading, cleaning, joining, and normalizing tables</li><li>Missing-value and duplicate checks</li><li>Exploratory data analysis and summary statistics</li><li>Matplotlib / Seaborn visualizations</li><li>Basic keyword frequency and text exploration</li></ul></div>
+          <div><h3>Project structure</h3><ul class="list"><li><strong>notebooks/</strong> — exploratory analysis and NLP notebooks</li><li><strong>src/</strong> — reusable loading, cleaning, ETL, quality, and analysis helpers</li><li><strong>data/</strong> — separate raw and processed data areas</li><li><strong>portfolio/</strong> — screenshots and selected chart exports</li></ul><div class="callout">The notebooks are exploratory, and the analysis should be interpreted in the context of the data available. This is a portfolio project in progress—not a claim of a production market-intelligence platform.</div></div>
+        </div>
+        <div class="tags"><span>Python</span><span>pandas</span><span>Jupyter</span><span>ETL</span><span>EDA</span><span>Data quality</span><span>Visualization</span><span>Text analysis</span></div>
+      </div>
+    </section>
+    <section class="wrap">
+      <div class="section-head"><p class="eyebrow">Keep exploring</p><h2>Want to inspect the implementation?</h2><p>The code and notebooks are available in the companion repository.</p></div>
+      <div class="actions"><a class="button primary" href="https://github.com/CristylePGarrard/Fiverr-consulting-toolkit">Fiverr consulting toolkit ↗</a><a class="button secondary" href="https://github.com/CristylePGarrard/Fiverr-consulting-toolkit/tree/main/src">Browse Python modules ↗</a><a class="button secondary" href="https://cristylepgarrard.github.io/Portfolio/">Back to portfolio ↗</a></div>
+    </section>
+  </main>
+  <footer><div class="wrap foot"><span>© 2026 Cristyle P. Garrard</span><span>Python · Data workflows · Learning by building</span></div></footer>
+</body>
+</html>
