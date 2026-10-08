@@ -14,7 +14,7 @@ This project sits at the intersection of **data preparation, exploratory analysi
 
 ## Project artifacts
 
-- **[View the project page](./)** — screenshots and a guided overview of the workflow.
+- **[View the project page](https://cristylepgarrard.github.io/Portfolio/python_automation/python_automation_toolkit/)** — screenshots and a guided overview of the workflow.
 - **[Source repository](https://github.com/CristylePGarrard/Fiverr-consulting-toolkit)** — project code, data-workflow modules, and notebooks.
 - **[Initial data analysis notebook](https://github.com/CristylePGarrard/Fiverr-consulting-toolkit/blob/main/notebooks/Fiverr_Initial_Data_Analysis.ipynb)** — initial inspection, cleaning, joining, and exploratory analysis.
 - **[NLP text analysis notebook](https://github.com/CristylePGarrard/Fiverr-consulting-toolkit/blob/main/notebooks/Fiverr_NLP_Text_Analysis.ipynb)** — exploratory analysis of listing text.
