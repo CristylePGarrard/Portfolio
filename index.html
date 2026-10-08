@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Cristyle P. Garrard — data engineering, Python, SQL, automation, and interactive applications.">
+  <title>Cristyle P. Garrard | Data Engineering & Automation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top">CPG<span>.</span></a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/CristylePGarrard" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">DATA • AUTOMATION • PROBLEM SOLVING</p>
+        <h1>I build tools for <em>messy</em> problems.</h1>
+        <p class="hero-text">
+          I'm Cristyle Garrard, a data-focused developer who turns repetitive,
+          inconsistent, or error-prone processes into reliable and useful tools.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore my work <span>↓</span></a>
+          <a class="button secondary" href="https://www.linkedin.com/in/cristylegarrard/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="terminal">
+          <div class="terminal-bar"><i></i><i></i><i></i><span>problem_solver.py</span></div>
+          <pre><code><span class="muted">def</span> <span class="function">make_it_better</span>(problem):
+    <span class="keyword">while</span> problem.is_messy():
+        data = problem.<span class="function">inspect</span>()
+        <span class="keyword">if</span> data.is_bad():
+            data = data.<span class="function">validate</span>()
+        problem = problem.<span class="function">automate</span>(data)
+
+    <span class="keyword">return</span> <span class="string">"reliable + usable"</span></code></pre>
+        </div>
+        <div class="floating-chip chip-one">Python + ETL</div>
+        <div class="floating-chip chip-two">SQL</div>
+        <div class="floating-chip chip-three">Automation</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Skills">
+      <div class="ticker-track">
+        <span>PYTHON</span><span>ETL</span><span>SQL</span><span>AUTOMATION</span><span>DATA VALIDATION</span><span>JAVASCRIPT</span><span>APIs</span><span>PYTHON</span><span>ETL</span><span>SQL</span><span>AUTOMATION</span><span>DATA VALIDATION</span><span>JAVASCRIPT</span><span>APIs</span>
+      </div>
+    </section>
+
+    <section id="work" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Things I've actually built.</h2>
+        <p>Not just a list of technologies. These are projects where the technology had to solve a real problem.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-art world-art">
+            <span class="art-label">EXPLORE</span>
+            <div class="map-dots"><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="project-icon">🌍</div>
+          </div>
+          <div class="project-content">
+            <p class="project-type">INTERACTIVE DATA APPLICATION</p>
+            <h3>Foods of the World Journal</h3>
+            <p>A shared food journal that uses geographic data to turn meals into an exploration of the world. Built around a Leaflet map, Google Sheets, and an Apps Script API.</p>
+            <div class="tags"><span>JavaScript</span><span>Leaflet</span><span>APIs</span><span>Google Sheets</span></div>
+            <a href="https://github.com/CristylePGarrard/FoodsOfTheWorld_Journal" target="_blank" rel="noreferrer" class="text-link">View project <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art pumpkin-art"><div class="project-icon">🎃</div><span class="art-label">PLAY</span></div>
+          <div class="project-content">
+            <p class="project-type">BROWSER APPLICATION</p>
+            <h3>Pumpkin Game</h3>
+            <p>A vanilla JavaScript and Canvas remake of an old Flash game, with drag-and-drop interaction, character dialogue, audio, animation, and game state.</p>
+            <div class="tags"><span>JavaScript</span><span>Canvas</span><span>Animation</span></div>
+            <a href="https://github.com/CristylePGarrard/pumpkin-game" target="_blank" rel="noreferrer" class="text-link">View project <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art python-art"><div class="code-symbol">&lt;/&gt;</div><span class="art-label">AUTOMATE</span></div>
+          <div class="project-content">
+            <p class="project-type">PYTHON AUTOMATION</p>
+            <h3>Fiverr Scraper & Tools</h3>
+            <p>Python/Selenium tooling that collects structured marketplace data, handles interruptions, tracks scraper state, and produces analysis-ready CSV output.</p>
+            <div class="tags"><span>Python</span><span>Selenium</span><span>pandas</span></div>
+            <a href="https://github.com/CristylePGarrard/Portfolio/tree/feature/portfolio-website/python_automation" target="_blank" rel="noreferrer" class="text-link">Explore tools <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="case-study">
+        <div class="case-number">01</div>
+        <div>
+          <p class="project-type">PROFESSIONAL CASE STUDY</p>
+          <h3>Millions of records. One reliable pipeline.</h3>
+          <p>
+            In a production role, I built a Python application to process vendor flat files
+            containing millions of records each day. The workflow identified file types,
+            validated records, isolated bad lines instead of rejecting entire files,
+            normalized valid data, and produced application-ready output.
+          </p>
+          <div class="case-stats">
+            <div><strong>Python</strong><span>Processing & automation</span></div>
+            <div><strong>SQL</strong><span>Validation & data work</span></div>
+            <div><strong>Millions</strong><span>Records processed daily</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="capabilities" class="dark-section">
+      <div class="container">
+        <div class="section-heading light">
+          <p class="eyebrow">WHAT I CAN BUILD</p>
+          <h2>Useful beats impressive-looking.</h2>
+          <p>I care about whether a tool makes a process better — not whether it uses the trendiest stack.</p>
+        </div>
+        <div class="capability-grid">
+          <div class="capability"><span>01</span><h3>Data Pipelines</h3><p>Ingest, validate, transform, and deliver data from messy source systems.</p></div>
+          <div class="capability"><span>02</span><h3>Automation</h3><p>Replace repetitive manual work with dependable scripts and applications.</p></div>
+          <div class="capability"><span>03</span><h3>Data Quality</h3><p>Find bad records, enforce rules, isolate failures, and keep good data moving.</p></div>
+          <div class="capability"><span>04</span><h3>Interactive Apps</h3><p>Build browser tools that make data and processes easier to explore and use.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container about">
+      <div class="about-marker">CPG</div>
+      <div>
+        <p class="eyebrow">A LITTLE MORE ABOUT ME</p>
+        <h2>I like figuring out why the thing is broken.</h2>
+        <p>
+          My background is in data analysis and engineering, with a lot of Python,
+          SQL, ETL, and process improvement along the way. I learn by building,
+          experimenting, breaking things, and figuring out why they broke.
+        </p>
+        <p>
+          I'm currently deepening my data-engineering skills while expanding into
+          cybersecurity and security-focused automation.
+        </p>
+        <div class="about-links">
+          <a class="button primary" href="https://github.com/CristylePGarrard" target="_blank" rel="noreferrer">See my GitHub ↗</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/cristylegarrard/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Cristyle P. Garrard</span>
+      <span>Built with HTML, CSS & JavaScript.</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
