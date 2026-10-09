@@ -40,13 +40,6 @@ a { color: inherit; }
 .button.primary { color: var(--white); background: var(--ink); }
 .button.secondary { background: transparent; }
 
-.project-icon img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
 .hero-visual { position: relative; min-height: 430px; display: grid; place-items: center; }
 .terminal { width: min(100%, 520px); background: var(--dark); color: #dce4d9; border-radius: 14px; box-shadow: 18px 20px 0 rgba(242,107,56,.22); transform: rotate(2deg); overflow: hidden; }
 .terminal-bar { height: 42px; display: flex; align-items: center; gap: 7px; padding: 0 15px; border-bottom: 1px solid #303638; color: #929b98; font: .65rem var(--mono); }
@@ -81,6 +74,7 @@ a { color: inherit; }
     display: grid;
     place-items: center;
     overflow: hidden;
+    width: 100%;
     border-bottom: 1px solid var(--ink);
 }
 .world-art { background: #cddbd4; }
@@ -89,10 +83,21 @@ a { color: inherit; }
 .python-art { background: #cad4df; }
 .project-icon {
     position: relative;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 2;
     font-size: 5.5rem;
     filter: grayscale(.1);
     transition: transform .35s;
+}
+.project-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
 }
 .project-card:hover .project-icon { transform: scale(1.15) rotate(-4deg); }
 .art-label { position: absolute; top: 16px; right: 16px; z-index: 3; padding: 5px 8px; border: 1px solid var(--ink); background: var(--white); font: .6rem var(--mono); }
